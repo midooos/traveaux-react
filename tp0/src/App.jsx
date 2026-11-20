@@ -2,14 +2,13 @@
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import"./App.css"
-import Destinations from "./components/Destinations/Destinations";
-
+import Login from "./components/Login/Login"
 function App() {
   return (
     <div className="app">
     <Header/>
     <main>
-      <Destinations/>
+      <Login/>
     </main>
     <Footer/>
     </div>
